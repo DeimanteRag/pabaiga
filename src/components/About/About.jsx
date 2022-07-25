@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 import ME from "../../assets/About_Me.jpg";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 
 const About = () => {
   return (
@@ -17,28 +16,13 @@ const About = () => {
         </div>
 
         <div className="about_content">
-          <div className="about_cards">
-            <article className="about_card">
-              <AiOutlineFundProjectionScreen className="about_icon" />
-              <h5>Experience</h5>
-              <small>Experience</small>
-            </article>
-            <article className="about_card">
-              <AiOutlineFundProjectionScreen className="about_icon" />
-              <h5>Experience</h5>
-              <small>Experience</small>
-            </article>
-            <article className="about_card">
-              <AiOutlineFundProjectionScreen className="about_icon" />
-              <h5>Experience</h5>
-              <small>Experience</small>
-            </article>
-          </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-            architecto ut. Maiores atque rerum, sunt minus nostrum temporibus.
-            Quae doloremque asperiores exercitationem ex hic repellat nesciunt
-            tenetur eos eligendi inventore?
+            I'm Deimantė, front-end developer in
+            <span style={{ fontWeight: "bold" }}>Lithuania</span>. I describe
+            myself as a passionate developer who loves{" "}
+            <span style={{ fontWeight: "bold" }}>
+              coding, and the web platform ❤️
+            </span>
           </p>
 
           <a href="#Contacts" className="btn btn-primaary">

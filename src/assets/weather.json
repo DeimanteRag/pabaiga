@@ -1,0 +1,30 @@
+{
+  "coord": { "lon": 23.9, "lat": 54.9 },
+  "weather": [
+    { "id": 800, "main": "Clear", "description": "clear sky", "icon": "01n" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 290.25,
+    "feels_like": 289.9,
+    "temp_min": 289.19,
+    "temp_max": 290.25,
+    "pressure": 1020,
+    "humidity": 72
+  },
+  "visibility": 10000,
+  "wind": { "speed": 1.54, "deg": 290 },
+  "clouds": { "all": 0 },
+  "dt": 1658347474,
+  "sys": {
+    "type": 1,
+    "id": 1880,
+    "country": "LT",
+    "sunrise": 1658283191,
+    "sunset": 1658342875
+  },
+  "timezone": 10800,
+  "id": 598316,
+  "name": "Kaunas",
+  "cod": 200
+}

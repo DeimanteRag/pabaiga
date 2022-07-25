@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
-  margin: 0 13rem 0 13rem;
+  margin-left: 40%;
 }
 
 .portfolio_item {
@@ -47,5 +47,6 @@
   .portfolio_container {
     grid-template-columns: 1fr;
     gap: 1rem;
+    margin: 0 1rem 0 1rem;
   }
 }
